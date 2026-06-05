@@ -1,11 +1,20 @@
-.venv
-.env
+# Virtual environment
+.venv/
+.env/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# SQLite
 faq.db*
 *.db
 *.db-shm
 *.db-wal
-__pycache__/
-.venv/
-.env/
-*.pyc
 *.db*
+
+# Backup files
+*.py.[0-9]*
