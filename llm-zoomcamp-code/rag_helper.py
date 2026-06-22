@@ -35,14 +35,12 @@ class RAGBase:
 
 
     def search(self, query, num_results=5):
-        boost_dict = {"question": 3.0, "section": 0.5}
-        filter_dict = {"course": self.course}
+        boost_dict = {"content": 1.0}
 
         return self.index.search(
             query,
             num_results=num_results,
             boost_dict=boost_dict,
-            filter_dict=filter_dict
         )
     
 
@@ -50,9 +48,8 @@ class RAGBase:
         lines = []
 
         for doc in search_results:
-            lines.append(doc["section"])
-            lines.append("Q: " + doc["question"])
-            lines.append("A: " + doc["answer"])
+            lines.append("filename: " + doc["filename"])
+            lines.append("content: " + doc["content"])
             lines.append("")
 
         return "\n".join(lines).strip()
@@ -75,11 +72,15 @@ class RAGBase:
             input=input_messages
         )
 
-        return response.output_text
+        return response
     
 
     def rag(self, query):
         search_results = self.search(query)
         prompt = self.build_prompt(query, search_results)
-        answer = self.llm(prompt)
-        return answer
+        response = self.llm(prompt)
+        
+        answer = response.output_text
+        tokens = response.usage.input_tokens
+        
+        return answer, tokens

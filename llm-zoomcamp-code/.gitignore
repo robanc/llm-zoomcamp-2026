@@ -19,3 +19,5 @@ faq.db*
 
 # Backup files
 *.py.[0-9]*
+
+llm-zoomcamp-hw2/models/
