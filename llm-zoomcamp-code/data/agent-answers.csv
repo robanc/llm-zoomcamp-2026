@@ -1,0 +1,545 @@
+question,answer_agent,answer_orig,tool_calls,cost,document
+Is it okay to join the course late if I just found it now?,"Yes — you can still join the course if you just discovered it.
+
+However, if you want a certificate, you’ll need to submit your project while submissions are still open.","Yes, but if you want to receive a certificate, you need to submit your project while we’re still accepting submissions.","[{'name': 'search', 'arguments': '{""query"":""late enrollment join course late found it now"" }'}]",0.0009255,74eb249bbf
+Can I still take this course even if I missed the start date?,"Yes — you can still start the course after the start date. The course materials are available, and the FAQ says you can start whenever you want. Also, you don’t need to be on a registered list to begin learning or submitting homework while the submission form is open.
+
+One caveat: if you’re aiming for a certificate, that usually requires following the live cohort rather than self-paced study.","Yes, but if you want to receive a certificate, you need to submit your project while we’re still accepting submissions.","[{'name': 'search', 'arguments': '{""query"":""missed start date enroll late take course after start date""}'}]",0.00122775,74eb249bbf
+"If I join after the course has already started, am I still eligible for a certificate?","Yes — you can still join after the course has started.  
+If you want a certificate, though, you need to submit your project while the course is still accepting submissions. The certificate depends on finishing with the live cohort, including the required peer review process.","Yes, but if you want to receive a certificate, you need to submit your project while we’re still accepting submissions.","[{'name': 'search', 'arguments': '{""query"":""join after course started eligible for certificate""}'}]",0.0009450,74eb249bbf
+Do I need to submit my project before submissions close to get the certificate?,"Yes — if you want the certificate, you need to submit your project while submissions are still open.
+
+Also, certification depends on participating in the peer-review process, so make sure you also review 3 peers in your cohort.","Yes, but if you want to receive a certificate, you need to submit your project while we’re still accepting submissions.","[{'name': 'search', 'arguments': '{""query"":""certificate project submit before submissions close deadline FAQ""}'}]",0.0009615,74eb249bbf
+I’m a bit late to the course—what do I need to do to still earn the certificate?,"Yes — you can still join late, but to earn the certificate you need to **submit your project while submissions are still open**.
+
+A couple of important notes:
+- **Homework is not mandatory** for the certificate.
+- You **must complete the capstone/project**.
+- Certificates are only awarded for the **live cohort**, not self-paced participation.
+- You also need to be able to **peer-review 3 capstone projects** while the course is running.
+
+If you want, I can also help you figure out the exact deadline/tracking page for your cohort.","Yes, but if you want to receive a certificate, you need to submit your project while we’re still accepting submissions.","[{'name': 'search', 'arguments': '{""query"":""late to course still earn certificate requirements certificate deadlines participation"" }'}]",0.00137475,74eb249bbf
+I registered for the LLM Zoomcamp — when should I expect a confirmation email?,"You don’t need to wait for a confirmation email — you’re accepted.
+
+Registration is mainly used to gauge interest before the start date, and it isn’t checked against a registered list. You can just start learning and submitting homework while the form is open.",You don't need it. You're accepted. You can also just start learning and submitting homework (while the form is open) without registering. It is not checked against any registered list. Registration is just to gauge interest before the start date.,"[{'name': 'search', 'arguments': '{""query"":""LLM Zoomcamp registration confirmation email when expect confirmation email""}'}]",0.00113625,977bf7786c
+Do I actually need an acceptance email before I can start the course and hand in homework?,"No — you don’t need to wait for an acceptance/confirmation email.
+
+According to the FAQ, you’re already accepted, and you can start learning and submitting homework as long as the homework form is open. Registration is only used to gauge interest, and it isn’t checked against a registered list.",You don't need it. You're accepted. You can also just start learning and submitting homework (while the form is open) without registering. It is not checked against any registered list. Registration is just to gauge interest before the start date.,"[{'name': 'search', 'arguments': '{""query"":""acceptance email start course hand in homework""}'}]",0.00129075,977bf7786c
+"If I filled out the registration form, does that mean I’m officially on a checked list for the course?","Yes — but not in the sense of being checked against a formal admitted/approved list.
+
+According to the FAQ, you’re accepted once you register, and you can start learning and submitting homework while the form is open **without needing a confirmation email**. The registration is mainly to **gauge interest before the start date**, and it is **not checked against a registered list**.",You don't need it. You're accepted. You can also just start learning and submitting homework (while the form is open) without registering. It is not checked against any registered list. Registration is just to gauge interest before the start date.,"[{'name': 'search', 'arguments': '{""query"":""registration form officially on a checked list course checked list registered enrolled""}'}]",0.0012465,977bf7786c
+"Is registering for the LLM Zoomcamp required, or is it just for estimating interest before the course starts?","Registration is **not required** to take the LLM Zoomcamp. According to the FAQ, you can **start learning and submit homework while the form is open without registering**, and registration is **just to gauge interest before the course starts**.",You don't need it. You're accepted. You can also just start learning and submitting homework (while the form is open) without registering. It is not checked against any registered list. Registration is just to gauge interest before the start date.,"[{'name': 'search', 'arguments': '{""query"":""registering for the LLM Zoomcamp required estimating interest before the course starts""}'}]",0.00112125,977bf7786c
+Can I begin learning and submit homework even if I never got any email after signing up?,"Yes — you can still start learning and submit homework even if you never received a confirmation email.
+
+According to the FAQ, you don’t need the email: registration is only to gauge interest, and it is **not checked against any registered list**. You’re accepted, and you can begin learning and submit homework **while the submission form is open**.
+
+",You don't need it. You're accepted. You can also just start learning and submitting homework (while the form is open) without registering. It is not checked against any registered list. Registration is just to gauge interest before the start date.,"[{'name': 'search', 'arguments': '{""query"":""never got email after signing up can I begin learning and submit homework""}'}]",0.00117525,977bf7786c
+How do I join the Office Hours or live workshop if I don’t have the Zoom link?,"You don’t need the Zoom link as a student.
+
+For Office Hours or live/workshop sessions:
+
+- The Zoom link is only for instructors/presenters/TAs.
+- Students join via **YouTube Live**.
+- The video URL is usually posted in the **announcements channel on Telegram and Slack** before the session starts.
+- You can also watch on the **DataTalksClub YouTube channel**.
+- Questions should be submitted in **Slido** when the session is live, rather than in chat.
+
+If you want, I can also help you find where the announcements channel is.","The zoom link is only published to instructors/presenters/TAs.
+
+Students participate via YouTube Live and submit questions to Slido (link is pinned in the chat when live). The video URL should be posted in the [announcements channel on Telegram and Slack](https://t.me/dezoomcamp) before it begins. You can also watch live on the DataTalksClub [YouTube Channel](https://www.youtube.com/c/DataTalksClub).
+
+Don’t post questions in chat as they may be missed if the room is very active.","[{'name': 'search', 'arguments': '{""query"":""Office Hours live workshop Zoom link join without link""}'}]",0.00146625,489dd1c9d9
+"Where can I watch the live sessions for the course, and how do I ask questions during them?","Live sessions are **not held for every module by default**. When they do happen, they’re announced separately.
+
+To watch them:
+- Check the **announcements channel on Telegram and Slack** for the video link
+- You can also watch on the **DataTalksClub YouTube channel**
+
+To ask questions during live sessions:
+- Use **Slido** — the link is usually pinned in the live chat
+- **Don’t post questions in chat**, because they can be missed
+
+If you’re stuck outside the live session, the FAQ also recommends asking in **Slack** and following the course’s **asking questions guidelines**.","The zoom link is only published to instructors/presenters/TAs.
+
+Students participate via YouTube Live and submit questions to Slido (link is pinned in the chat when live). The video URL should be posted in the [announcements channel on Telegram and Slack](https://t.me/dezoomcamp) before it begins. You can also watch live on the DataTalksClub [YouTube Channel](https://www.youtube.com/c/DataTalksClub).
+
+Don’t post questions in chat as they may be missed if the room is very active.","[{'name': 'search', 'arguments': '{""query"":""live sessions watch ask questions during them""}'}]",0.00160275,489dd1c9d9
+"Is the Zoom link for the workshop shared with students, or only with the teaching team?","The Zoom link is only published to instructors, presenters, and TAs.
+
+Students join via YouTube Live and ask questions through Slido, and the live video link is posted in the announcements channel before the session starts.","The zoom link is only published to instructors/presenters/TAs.
+
+Students participate via YouTube Live and submit questions to Slido (link is pinned in the chat when live). The video URL should be posted in the [announcements channel on Telegram and Slack](https://t.me/dezoomcamp) before it begins. You can also watch live on the DataTalksClub [YouTube Channel](https://www.youtube.com/c/DataTalksClub).
+
+Don’t post questions in chat as they may be missed if the room is very active.","[{'name': 'search', 'arguments': '{""query"":""Zoom link workshop shared with students teaching team only""}'}]",0.0010305,489dd1c9d9
+What’s the best way to follow the live Office Hours stream if I’m a student?,"If you’re a student, the best way to follow the live Office Hours stream is:
+
+- Watch it on the DataTalksClub YouTube channel
+- Look for the announcement in the Telegram and Slack announcements channels before it starts
+- Join questions via Slido, since the link is pinned in the live chat
+- Don’t rely on posting questions in chat, because they may get missed
+
+Also, the Zoom link is only for instructors/presenters/TAs, not students.","The zoom link is only published to instructors/presenters/TAs.
+
+Students participate via YouTube Live and submit questions to Slido (link is pinned in the chat when live). The video URL should be posted in the [announcements channel on Telegram and Slack](https://t.me/dezoomcamp) before it begins. You can also watch live on the DataTalksClub [YouTube Channel](https://www.youtube.com/c/DataTalksClub).
+
+Don’t post questions in chat as they may be missed if the room is very active.","[{'name': 'search', 'arguments': '{""query"":""live Office Hours stream student best way follow""}'}]",0.0014805,489dd1c9d9
+"Should I type my questions in the live chat during Office Hours, or use something else?","Use **Slack** for questions, not the live chat.
+
+For office hours/live sessions, students are expected to:
+- watch via **YouTube Live**
+- submit questions via **Slido** when a live session is running
+- not post questions in chat, because they may be missed
+
+If you’re stuck outside a live session, ask in **Slack** and follow the course’s question-asking guidelines.","The zoom link is only published to instructors/presenters/TAs.
+
+Students participate via YouTube Live and submit questions to Slido (link is pinned in the chat when live). The video URL should be posted in the [announcements channel on Telegram and Slack](https://t.me/dezoomcamp) before it begins. You can also watch live on the DataTalksClub [YouTube Channel](https://www.youtube.com/c/DataTalksClub).
+
+Don’t post questions in chat as they may be missed if the room is very active.","[{'name': 'search', 'arguments': '{""query"":""live chat office hours questions use something else office hours chat questions""}'}]",0.00154725,489dd1c9d9
+How do I find my row on the leaderboard if I can’t see my name right away?,"Click the **“Jump to your record on the leaderboard”** link — that will take you directly to your row even if your name isn’t visible right away.
+
+If you want, you can also check your **Display name** by clicking **“Edit Course Profile.”**","When you set up your account, you are automatically assigned a random name, such as “Lucid Elbakyan.” Click on the ""Jump to your record on the leaderboard"" link to find your entry.
+
+If you want to see what your Display name is, click on the ""Edit Course Profile"" button.
+
+<{IMAGE:image_1}>
+
+- **First field:** This is your nickname/displayed name. You can change it if you want to be known by your Slack username, GitHub username, or any other nickname of your choice. This is useful if you want to remain anonymous.
+- **Second field:** Change this to your official name as in your identification documents—passport, national ID card, driver's license, etc. This is mandatory if you do not want ""Lucid Elbakyan"" on your certificate. This name will appear on your Certificate!","[{'name': 'search', 'arguments': '{""query"":""leaderboard find my row can\'t see my name scroll search my name row""}'}]",0.00132675,c2903069a0
+Why does the leaderboard show some random nickname instead of my real name?,"The leaderboard uses a randomly assigned display name by default, so you may see something like “Lucid Elbakyan” instead of your real name.
+
+You can change it in **Edit Course Profile**:
+
+- **First field:** your display name/nickname on the leaderboard
+- **Second field:** your official legal name, which is what will appear on your certificate
+
+If you just want to find your entry, use **“Jump to your record on the leaderboard.”**","When you set up your account, you are automatically assigned a random name, such as “Lucid Elbakyan.” Click on the ""Jump to your record on the leaderboard"" link to find your entry.
+
+If you want to see what your Display name is, click on the ""Edit Course Profile"" button.
+
+<{IMAGE:image_1}>
+
+- **First field:** This is your nickname/displayed name. You can change it if you want to be known by your Slack username, GitHub username, or any other nickname of your choice. This is useful if you want to remain anonymous.
+- **Second field:** Change this to your official name as in your identification documents—passport, national ID card, driver's license, etc. This is mandatory if you do not want ""Lucid Elbakyan"" on your certificate. This name will appear on your Certificate!","[{'name': 'search', 'arguments': '{""query"":""leaderboard random nickname real name""}'}]",0.00139275,c2903069a0
+Where can I check what display name I’m using for the course?,"You can check it by clicking the **“Edit Course Profile”** button.
+
+- The **first field** is your **nickname/display name** — that’s the name used for the course/leaderboard.
+- If you want, you can change it there.
+
+If you’d like, I can also explain how to change the name that appears on your certificate.","When you set up your account, you are automatically assigned a random name, such as “Lucid Elbakyan.” Click on the ""Jump to your record on the leaderboard"" link to find your entry.
+
+If you want to see what your Display name is, click on the ""Edit Course Profile"" button.
+
+<{IMAGE:image_1}>
+
+- **First field:** This is your nickname/displayed name. You can change it if you want to be known by your Slack username, GitHub username, or any other nickname of your choice. This is useful if you want to remain anonymous.
+- **Second field:** Change this to your official name as in your identification documents—passport, national ID card, driver's license, etc. This is mandatory if you do not want ""Lucid Elbakyan"" on your certificate. This name will appear on your Certificate!","[{'name': 'search', 'arguments': '{""query"":""display name course profile name what display name am I using""}'}]",0.0014385,c2903069a0
+"Can I change the name that appears publicly, like to my Slack or GitHub name?","Yes — you can change the public/display name to your Slack username, GitHub username, or another nickname.
+
+In your course profile:
+
+- **First field:** this is your nickname/display name. You can change it to whatever you want to appear publicly.
+- **Second field:** this should be your official name as it appears on your ID/passport, since that’s the name used on your certificate.
+
+If you want, I can also explain which name shows on the leaderboard vs. the certificate.","When you set up your account, you are automatically assigned a random name, such as “Lucid Elbakyan.” Click on the ""Jump to your record on the leaderboard"" link to find your entry.
+
+If you want to see what your Display name is, click on the ""Edit Course Profile"" button.
+
+<{IMAGE:image_1}>
+
+- **First field:** This is your nickname/displayed name. You can change it if you want to be known by your Slack username, GitHub username, or any other nickname of your choice. This is useful if you want to remain anonymous.
+- **Second field:** Change this to your official name as in your identification documents—passport, national ID card, driver's license, etc. This is mandatory if you do not want ""Lucid Elbakyan"" on your certificate. This name will appear on your Certificate!","[{'name': 'search', 'arguments': '{""query"":""change public name Slack GitHub name appears publicly profile display name""}'}]",0.001431,c2903069a0
+What should I put in the profile fields so my certificate doesn’t use the default random name?,"In your course profile:
+
+- **First field:** your display name/nickname
+- **Second field:** your **official name exactly as it appears on your ID** (passport, national ID, driver’s license, etc.)
+
+The **second field** is the one that will appear on your certificate, and it’s required if you don’t want the default random name like “Lucid Elbakyan.”","When you set up your account, you are automatically assigned a random name, such as “Lucid Elbakyan.” Click on the ""Jump to your record on the leaderboard"" link to find your entry.
+
+If you want to see what your Display name is, click on the ""Edit Course Profile"" button.
+
+<{IMAGE:image_1}>
+
+- **First field:** This is your nickname/displayed name. You can change it if you want to be known by your Slack username, GitHub username, or any other nickname of your choice. This is useful if you want to remain anonymous.
+- **Second field:** Change this to your official name as in your identification documents—passport, national ID card, driver's license, etc. This is mandatory if you do not want ""Lucid Elbakyan"" on your certificate. This name will appear on your Certificate!","[{'name': 'search', 'arguments': '{""query"":""certificate default random name profile fields name on certificate profile fields""}'}]",0.00132525,c2903069a0
+Can I do the course at my own pace and still get a certificate at the end?,"No — for this course, you can only get a certificate if you finish with a live cohort. Certificates are not awarded for self-paced participation.
+
+The reason is that certificate eligibility depends on peer-reviewing capstone projects, and that only happens while the course is actively running.","No, you can only get a certificate if you finish the course with a ""live"" cohort.
+
+We don't award certificates for the self-paced mode. The reason is you need to peer-review 3 capstone(s) after submitting your project.
+
+You can only peer-review projects at the time the course is running; after the form is closed and the peer-review list is compiled.","[{'name': 'search', 'arguments': '{""query"":""self-paced certificate course at my own pace certificate end""}'}]",0.00111525,69d122f12e
+"If I take the self-paced version, is there any way to earn the course certificate?","No — if you take the self-paced version, you can’t earn the course certificate.
+
+The FAQ says certificates are only awarded for finishing the course with a live cohort, because you need to peer-review 3 capstones after submitting your project, and that peer-review step is only available while the course is running.","No, you can only get a certificate if you finish the course with a ""live"" cohort.
+
+We don't award certificates for the self-paced mode. The reason is you need to peer-review 3 capstone(s) after submitting your project.
+
+You can only peer-review projects at the time the course is running; after the form is closed and the peer-review list is compiled.","[{'name': 'search', 'arguments': '{""query"":""self-paced version course certificate earn certificate""}'}]",0.00112725,69d122f12e
+Do certificates only count for people who finish with the live cohort?,"Yes — certificates are only awarded if you finish the course with a **live cohort**.
+
+Self-paced participants do **not** get a certificate, because certificate eligibility requires **peer-reviewing 3 capstones**, and that only happens while the course is actively running.","No, you can only get a certificate if you finish the course with a ""live"" cohort.
+
+We don't award certificates for the self-paced mode. The reason is you need to peer-review 3 capstone(s) after submitting your project.
+
+You can only peer-review projects at the time the course is running; after the form is closed and the peer-review list is compiled.","[{'name': 'search', 'arguments': '{""query"":""certificates live cohort finish certificate cohort FAQ""}'}]",0.0011055,69d122f12e
+Why doesn’t the self-paced mode come with a certificate?,"You can only get a certificate if you finish the course with a live cohort.
+
+Self-paced mode doesn’t come with a certificate because the course requires you to peer-review 3 capstone projects after submitting your own project, and that peer-review process is only available while the course is running live. Once the submission form closes, the peer-review list is compiled and you can’t complete that requirement anymore.","No, you can only get a certificate if you finish the course with a ""live"" cohort.
+
+We don't award certificates for the self-paced mode. The reason is you need to peer-review 3 capstone(s) after submitting your project.
+
+You can only peer-review projects at the time the course is running; after the form is closed and the peer-review list is compiled.","[{'name': 'search', 'arguments': '{""query"":""self-paced mode certificate why doesn\'t self-paced mode come with a certificate""}'}]",0.0013455,69d122f12e
+Is peer-review of the capstone project required in order to receive the certificate?,"Yes. For the certificate, you must also do peer review of 3 fellow capstone projects after submitting your own. The FAQ says that not complying with this rule may prevent you from getting the certificate.
+
+Also, certificates are only available for the live cohort, not self-paced mode, because the peer-review step happens while the course is running.","No, you can only get a certificate if you finish the course with a ""live"" cohort.
+
+We don't award certificates for the self-paced mode. The reason is you need to peer-review 3 capstone(s) after submitting your project.
+
+You can only peer-review projects at the time the course is running; after the form is closed and the peer-review list is compiled.","[{'name': 'search', 'arguments': '{""query"":""peer review capstone project required receive certificate""}'}]",0.0010515,69d122f12e
+Can I still get the certificate if I skipped the first homework?,"Yes — skipping the first homework does **not** prevent you from getting the certificate.
+
+According to the FAQ, **homework is not mandatory**. What you **do** need is to **pass the Capstone project** to get the certificate. Homework points only affect your **leaderboard rank**.","Yes, you need to pass the Capstone project to get the certificate. Homework is not mandatory, though it is recommended for reinforcing concepts, and the points awarded count towards your rank on the leaderboard.","[{'name': 'search', 'arguments': '{""query"":""certificate skipped first homework homework certificate eligibility""}'}]",0.00112875,9f689c185f
+Do I have to do all the homework to receive the certificate for this course?,"No — for this course, homework is **not mandatory** to get the certificate.
+
+What matters is that you **pass the Capstone project**. Homework is recommended because it helps reinforce the material, and the points count toward your leaderboard rank, but you do not need to complete all homework assignments for the certificate.","Yes, you need to pass the Capstone project to get the certificate. Homework is not mandatory, though it is recommended for reinforcing concepts, and the points awarded count towards your rank on the leaderboard.","[{'name': 'search', 'arguments': '{""query"":""certificate homework required all homework certificate course""}'}]",0.00114225,9f689c185f
+What do I actually need to pass in order to get the certificate?,"To get the certificate, you need to:
+
+- **Pass the capstone project**
+- **Submit it while the course is still accepting submissions**
+- **Complete the required peer reviews** for 3 other projects
+
+A couple of important notes:
+
+- **Homework is not mandatory** for the certificate.
+- You **cannot get a certificate in self-paced mode**; it’s only awarded if you finish with a **live cohort**.
+- If you want your real name on the certificate, make sure your **official name** is set in your course profile.
+
+If you want, I can also summarize the exact capstone/peer-review requirement in one sentence.","Yes, you need to pass the Capstone project to get the certificate. Homework is not mandatory, though it is recommended for reinforcing concepts, and the points awarded count towards your rank on the leaderboard.","[{'name': 'search', 'arguments': '{""query"":""certificate pass requirements needed to get certificate""}'}]",0.0014400,9f689c185f
+"Is homework mandatory, or is it just optional practice for the course?","Homework is **not mandatory** for the certificate. You can still get the certificate as long as you pass the **Capstone project**.
+
+That said, homework is **recommended** because it helps reinforce the concepts, and the points can affect your **leaderboard rank**.","Yes, you need to pass the Capstone project to get the certificate. Homework is not mandatory, though it is recommended for reinforcing concepts, and the points awarded count towards your rank on the leaderboard.","[{'name': 'search', 'arguments': '{""query"":""homework mandatory optional practice course""}'}]",0.0011790,9f689c185f
+"If homework isn't required, does it still affect anything like my ranking or points?","No — homework is not mandatory, so skipping it won’t affect your ability to get a certificate as long as you pass the Capstone project.
+
+However, homework points **do count toward your leaderboard rank**, so even if it isn’t required, it can still affect your ranking.","Yes, you need to pass the Capstone project to get the certificate. Homework is not mandatory, though it is recommended for reinforcing concepts, and the points awarded count towards your rank on the leaderboard.","[{'name': 'search', 'arguments': '{""query"":""homework not required affect ranking points optional homework points ranking""}'}]",0.00121275,9f689c185f
+Why does the homework content keep changing in this course?,"The homework content can change because the homework is not considered final until:
+
+- the homework form is open on the course management platform, and
+- the homework title does **not** contain `[DRAFT]`.
+
+If either of those is not true yet, the homework may still be updated, so working on it early is at your own risk because the final version can differ.","If the homework title contains `[DRAFT]`, it means the homework is not ready yet.
+
+The homework is ready only when both are true:
+
+- The homework form is open on the course management platform.
+- The homework title does not contain `[DRAFT]`.
+
+Until then, the content can still change. Working on the material or homework in advance is at your own risk, because the final version can be different.","[{'name': 'search', 'arguments': '{""query"":""homework content keep changing course""}'}]",0.0012855,96286b4be4
+"Is the material already finalized, or can it still change later?","It can still change later if the homework/material is marked as **`[DRAFT]`**.
+
+According to the FAQ, the content is only considered ready when:
+
+- the homework form is open on the course management platform, and
+- the title no longer contains **`[DRAFT]`**
+
+Until then, the final version may still be different, so working on it early is at your own risk.","If the homework title contains `[DRAFT]`, it means the homework is not ready yet.
+
+The homework is ready only when both are true:
+
+- The homework form is open on the course management platform.
+- The homework title does not contain `[DRAFT]`.
+
+Until then, the content can still change. Working on the material or homework in advance is at your own risk, because the final version can be different.","[{'name': 'search', 'arguments': '{""query"":""material finalized change later finalized still change later""}'}]",0.00110025,96286b4be4
+"If I start working on the homework now, could the final version be different?","Yes — working on it early is okay, but **the final version can still change** if the homework is marked as draft.
+
+The homework is considered ready only when:
+
+- the homework form is open on the course platform, and
+- the title **does not** contain **`[DRAFT]`**.
+
+Until then, it’s best to treat early work as **at your own risk** because the final version may be different.","If the homework title contains `[DRAFT]`, it means the homework is not ready yet.
+
+The homework is ready only when both are true:
+
+- The homework form is open on the course management platform.
+- The homework title does not contain `[DRAFT]`.
+
+Until then, the content can still change. Working on the material or homework in advance is at your own risk, because the final version can be different.","[{'name': 'search', 'arguments': '{""query"":""homework final version different start working now could the final version be different""}'}]",0.00152025,96286b4be4
+How will I know when a module is actually ready and settled?,"A module is considered ready only when its homework/materials are no longer marked as draft and are officially opened on the course platform.
+
+More specifically, for homework the FAQ says it’s ready only when both are true:
+
+- the homework form is open on the course management platform
+- the homework title does **not** contain `[DRAFT]`
+
+Until then, the content can still change, so it’s best to treat it as not settled yet.","If the homework title contains `[DRAFT]`, it means the homework is not ready yet.
+
+The homework is ready only when both are true:
+
+- The homework form is open on the course management platform.
+- The homework title does not contain `[DRAFT]`.
+
+Until then, the content can still change. Working on the material or homework in advance is at your own risk, because the final version can be different.","[{'name': 'search', 'arguments': '{""query"":""module ready settled know when module is actually ready and settled""}'}]",0.0014400,96286b4be4
+"Is it safe to do the course work in advance, or should I wait until updates are announced?","Yes — it’s generally fine to work ahead. The FAQ doesn’t say you need to wait for announcements before starting course work.
+
+A couple of related points from the FAQ:
+- You should **commit your work regularly** so it isn’t lost if a workspace stops or gets deleted.
+- For the **certificate**, you need to finish with the **live cohort**; self-paced work alone doesn’t qualify.
+
+If you want, I can also check whether there’s a FAQ entry about doing homework before a module is officially released.","If the homework title contains `[DRAFT]`, it means the homework is not ready yet.
+
+The homework is ready only when both are true:
+
+- The homework form is open on the course management platform.
+- The homework title does not contain `[DRAFT]`.
+
+Until then, the content can still change. Working on the material or homework in advance is at your own risk, because the final version can be different.","[{'name': 'search', 'arguments': '{""query"":""safe to do course work in advance updates announced wait until updates announced""}'}]",0.0013170,96286b4be4
+When is the next time this course will be offered?,The course will next be offered in **Summer 2027**.,Summer 2027.,"[{'name': 'search', 'arguments': '{""query"":""next time course will be offered when is course offered next offering schedule""}'}]",0.0008190,bd31146b0e
+Do you know when the next course session starts?,The next course offering is **Summer 2027**.,Summer 2027.,"[{'name': 'search', 'arguments': '{""query"":""next course session starts start date schedule upcoming session""}'}]",0.00089025,bd31146b0e
+"Will there be another run of this course, and if so, when?",Yes — the next run is scheduled for **Summer 2027**.,Summer 2027.,"[{'name': 'search', 'arguments': '{""query"":""another run of this course when next run repeated offered again future offering""}'}]",0.000963,bd31146b0e
+What's the next scheduled offering for this course?,The next scheduled offering is **Summer 2027**.,Summer 2027.,"[{'name': 'search', 'arguments': '{""query"":""next scheduled offering for this course""}'}]",0.00078375,bd31146b0e
+Can you tell me when the course is coming back?,The course is scheduled to be offered next in **Summer 2027**.,Summer 2027.,"[{'name': 'search', 'arguments': '{""query"":""when is the course coming back returning next offering re-open enrollment""}'}]",0.00091425,bd31146b0e
+Where can I find the course lectures or videos for this class?,"Yes — the best place to find the lectures/videos is the **LLM Zoomcamp GitHub repository**:
+
+- Main repo: https://github.com/DataTalksClub/llm-zoomcamp
+
+Open the **lesson folders** there; each lesson page has the relevant videos linked at the top. The repo is the main entry point and is usually better to follow than the YouTube playlist because it stays updated more reliably.","Use the [LLM Zoomcamp GitHub repository](https://github.com/DataTalksClub/llm-zoomcamp) as the main entry point.
+
+Open the lesson folders in the repo. Each lesson page has the relevant videos linked at the top.
+
+<{IMAGE:lessons}>
+
+When in doubt, follow the GitHub repo first, because it is easier to keep updated than the YouTube playlist.","[{'name': 'search', 'arguments': '{""query"":""course lectures videos where find class lectures videos""}'}]",0.00130575,31456f4b5f
+Are the recordings or lecture videos posted somewhere I can watch them?,"Yes — the lectures/videos are posted in the course GitHub repo.
+
+- Use the **LLM Zoomcamp GitHub repository** as the main entry point: https://github.com/DataTalksClub/llm-zoomcamp
+- Open the **lesson folders** there; each lesson page has the relevant videos linked at the top.
+- The repo is the best source to follow because it’s easier to keep updated than the YouTube playlist.
+
+If you want, I can also point you to the repo/docs start page.","Use the [LLM Zoomcamp GitHub repository](https://github.com/DataTalksClub/llm-zoomcamp) as the main entry point.
+
+Open the lesson folders in the repo. Each lesson page has the relevant videos linked at the top.
+
+<{IMAGE:lessons}>
+
+When in doubt, follow the GitHub repo first, because it is easier to keep updated than the YouTube playlist.","[{'name': 'search', 'arguments': '{""query"":""recordings lecture videos posted watch them""}'}]",0.0015990,31456f4b5f
+I’m looking for the videos—should I check the bookmarks or pinned links?,"Check the **GitHub repo/lesson pages first**—that’s the main place for the videos. Each lesson page has the relevant video links at the top, and it’s kept more up to date than the YouTube playlist.
+
+If you’re looking for a live session, the link is usually **announced in the Telegram/Slack announcements** and is often **pinned in the live chat** when the session starts.","Use the [LLM Zoomcamp GitHub repository](https://github.com/DataTalksClub/llm-zoomcamp) as the main entry point.
+
+Open the lesson folders in the repo. Each lesson page has the relevant videos linked at the top.
+
+<{IMAGE:lessons}>
+
+When in doubt, follow the GitHub repo first, because it is easier to keep updated than the YouTube playlist.","[{'name': 'search', 'arguments': '{""query"":""videos bookmarks pinned links""}'}]",0.001698,31456f4b5f
+Is there a specific YouTube channel for the course lectures?,"Yes — the course lectures are linked from the **LLM Zoomcamp GitHub repository**. Each lesson page in the repo has the relevant videos at the top, and the FAQ says to use the repo as the main entry point rather than relying on a YouTube playlist.
+
+If you mean **live sessions / office hours**, those are streamed on the **DataTalksClub YouTube Channel**:
+https://www.youtube.com/c/DataTalksClub
+
+","Use the [LLM Zoomcamp GitHub repository](https://github.com/DataTalksClub/llm-zoomcamp) as the main entry point.
+
+Open the lesson folders in the repo. Each lesson page has the relevant videos linked at the top.
+
+<{IMAGE:lessons}>
+
+When in doubt, follow the GitHub repo first, because it is easier to keep updated than the YouTube playlist.","[{'name': 'search', 'arguments': '{""query"":""YouTube channel course lectures""}'}]",0.00123225,31456f4b5f
+"Where are the lecture videos linked, and what should I check first?","The lecture videos are linked in the **LLM Zoomcamp GitHub repository**. Open the **lesson folders**, and you’ll find the relevant videos linked at the top of each lesson page.
+
+**What to check first:**  
+Start with the **GitHub repo first**, since it’s the main entry point and is usually more up to date than the YouTube playlist.","Use the [LLM Zoomcamp GitHub repository](https://github.com/DataTalksClub/llm-zoomcamp) as the main entry point.
+
+Open the lesson folders in the repo. Each lesson page has the relevant videos linked at the top.
+
+<{IMAGE:lessons}>
+
+When in doubt, follow the GitHub repo first, because it is easier to keep updated than the YouTube playlist.","[{'name': 'search', 'arguments': '{""query"":""lecture videos linked where should I check first""}'}]",0.00134025,31456f4b5f
+Why does WSL2 say the model needs more memory even though my PC has enough RAM?,"WSL2 doesn’t automatically get to use all the RAM in your PC. It has its own memory limit, so the model may be bigger than the memory allocated to WSL2 even if your machine has enough total RAM.
+
+To fix it, increase WSL2’s memory allocation:
+
+1. Create a `.wslconfig` file in your Windows user folder:
+   `C:\Users\YourUsername\.wslconfig`
+
+2. Add something like:
+   ```ini
+   [wsl2]
+   memory=8GB
+   ```
+
+3. Restart WSL:
+   ```bash
+   wsl --shutdown
+   ```
+
+4. Check inside WSL with:
+   ```bash
+   free
+   ```
+
+If you want, I can also help you choose a good memory value for your setup.","Your WSL2 is set to use Y.Y GiB, not all your computer memory. To allocate more RAM, follow these steps:
+
+1. Create a `.wslconfig` file under your Windows user profile directory: `C:\Users\YourUsername\.wslconfig`.
+
+2. Include the desired RAM allocation in the file:
+
+   ```ini
+   [wsl2]
+   memory=8GB
+   ```
+
+3. Restart WSL using the command:
+
+   ```bash
+   wsl --shutdown
+   ```
+
+4. Run the `free` command in WSL to verify the changes.
+
+For more details, read [this article](https://www.aleksandrhovhannisyan.com/blog/limiting-memory-usage-in-wsl-2/).","[{'name': 'search', 'arguments': '{""query"":""WSL2 model needs more memory enough RAM error why does WSL2 say the model needs more memory even though my PC has enough RAM""}'}]",0.0021285,f3dd94f323
+How can I increase the RAM available to WSL2 on Windows for running a model?,"WSL2 doesn’t use all of your Windows RAM by default. To give it more memory, create a `.wslconfig` file in your Windows user profile directory:
+
+`C:\Users\YourUsername\.wslconfig`
+
+Add something like:
+
+```ini
+[wsl2]
+memory=8GB
+```
+
+Then restart WSL:
+
+```bash
+wsl --shutdown
+```
+
+After that, start WSL again and you can verify the available memory with:
+
+```bash
+free
+```
+
+If you want, I can also show you how to set CPU cores in `.wslconfig`.","Your WSL2 is set to use Y.Y GiB, not all your computer memory. To allocate more RAM, follow these steps:
+
+1. Create a `.wslconfig` file under your Windows user profile directory: `C:\Users\YourUsername\.wslconfig`.
+
+2. Include the desired RAM allocation in the file:
+
+   ```ini
+   [wsl2]
+   memory=8GB
+   ```
+
+3. Restart WSL using the command:
+
+   ```bash
+   wsl --shutdown
+   ```
+
+4. Run the `free` command in WSL to verify the changes.
+
+For more details, read [this article](https://www.aleksandrhovhannisyan.com/blog/limiting-memory-usage-in-wsl-2/).","[{'name': 'search', 'arguments': '{""query"":""increase RAM available to WSL2 Windows model memory .wslconfig""}'}]",0.0018705,f3dd94f323
+Where should I put a .wslconfig file to give WSL2 more memory?,"Put the `.wslconfig` file in your Windows user profile directory:
+
+```text
+C:\Users\YourUsername\.wslconfig
+```
+
+Then add something like:
+
+```ini
+[wsl2]
+memory=8GB
+```
+
+After that, restart WSL with:
+
+```bash
+wsl --shutdown
+```
+
+If you want, I can also show you how to verify that WSL is using the new memory limit.","Your WSL2 is set to use Y.Y GiB, not all your computer memory. To allocate more RAM, follow these steps:
+
+1. Create a `.wslconfig` file under your Windows user profile directory: `C:\Users\YourUsername\.wslconfig`.
+
+2. Include the desired RAM allocation in the file:
+
+   ```ini
+   [wsl2]
+   memory=8GB
+   ```
+
+3. Restart WSL using the command:
+
+   ```bash
+   wsl --shutdown
+   ```
+
+4. Run the `free` command in WSL to verify the changes.
+
+For more details, read [this article](https://www.aleksandrhovhannisyan.com/blog/limiting-memory-usage-in-wsl-2/).","[{'name': 'search', 'arguments': '{""query"":""wslconfig file location WSL2 more memory .wslconfig""}'}]",0.00151875,f3dd94f323
+What do I need to write in .wslconfig to set WSL2 memory to 8GB?,"Put this in `C:\Users\YourUsername\.wslconfig`:
+
+```ini
+[wsl2]
+memory=8GB
+```
+
+Then restart WSL:
+
+```bash
+wsl --shutdown
+```
+
+You can verify it inside WSL with `free`.","Your WSL2 is set to use Y.Y GiB, not all your computer memory. To allocate more RAM, follow these steps:
+
+1. Create a `.wslconfig` file under your Windows user profile directory: `C:\Users\YourUsername\.wslconfig`.
+
+2. Include the desired RAM allocation in the file:
+
+   ```ini
+   [wsl2]
+   memory=8GB
+   ```
+
+3. Restart WSL using the command:
+
+   ```bash
+   wsl --shutdown
+   ```
+
+4. Run the `free` command in WSL to verify the changes.
+
+For more details, read [this article](https://www.aleksandrhovhannisyan.com/blog/limiting-memory-usage-in-wsl-2/).","[{'name': 'search', 'arguments': '{""query"":""wslconfig WSL2 memory 8GB .wslconfig set memory""}'}]",0.001542,f3dd94f323
+"After changing WSL2 memory settings, how can I check if the new RAM limit is actually applied?","After updating `.wslconfig`, restart WSL with:
+
+```bash
+wsl --shutdown
+```
+
+Then check the applied memory limit inside WSL with:
+
+```bash
+free -h
+```
+
+That will show whether the new RAM limit is in effect.","Your WSL2 is set to use Y.Y GiB, not all your computer memory. To allocate more RAM, follow these steps:
+
+1. Create a `.wslconfig` file under your Windows user profile directory: `C:\Users\YourUsername\.wslconfig`.
+
+2. Include the desired RAM allocation in the file:
+
+   ```ini
+   [wsl2]
+   memory=8GB
+   ```
+
+3. Restart WSL using the command:
+
+   ```bash
+   wsl --shutdown
+   ```
+
+4. Run the `free` command in WSL to verify the changes.
+
+For more details, read [this article](https://www.aleksandrhovhannisyan.com/blog/limiting-memory-usage-in-wsl-2/).","[{'name': 'search', 'arguments': '{""query"":""WSL2 memory settings check if new RAM limit is applied after changing .wslconfig""}'}]",0.00131925,f3dd94f323
