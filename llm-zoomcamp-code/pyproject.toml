@@ -17,6 +17,7 @@ dependencies = [
     "requests>=2.34.2",
     "sentence-transformers>=5.5.1",
     "sqlitesearch>=0.0.5",
+    "streamlit>=1.58.0",
     "toyaikit>=0.0.11",
     "tqdm>=4.67.3",
 ]

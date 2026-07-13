@@ -1,0 +1,12 @@
+.venv
+.git
+__pycache__
+*.pyc
+.cache
+.ipynb_checkpoints
+data
+models
+*.parquet
+*.csv
+*.db
+*.sqlite
