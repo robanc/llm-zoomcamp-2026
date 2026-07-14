@@ -2,7 +2,8 @@
 
 Source : C:\\Users\\roban\\.claude\\projects\\**\\*.jsonl
 Reader : dlt.sources.filesystem filesystem() | read_jsonl()
-Target : DuckDB, dataset "agent_logs", table "messages"
+Target : DuckDB, dataset "agent_logs", single table "messages"
+         (nested structures kept as JSON columns; no child tables)
 """
 
 import dlt
@@ -13,10 +14,18 @@ BUCKET_URL = "file:///C:/Users/roban/.claude/projects"
 
 
 def agent_log_messages():
-    """filesystem items -> parsed JSONL records, exposed as resource `messages`."""
+    """filesystem items -> parsed JSONL records, exposed as resource `messages`.
+
+    Claude logs nest arrays/objects deeply (e.g. `message.content`,
+    `message.usage.iterations`, `attachment.added_*`, and `snapshot`
+    whose keys are filenames). `max_table_nesting = 0` keeps every nested
+    structure as a JSON column on `messages` instead of exploding it into
+    child tables / dynamically-named columns.
+    """
     files = filesystem(bucket_url=BUCKET_URL, file_glob="**/*.jsonl")
     reader = (files | read_jsonl()).with_name("messages")
     reader.apply_hints(write_disposition="replace")
+    reader.max_table_nesting = 0
     return reader
 
 
