@@ -1,0 +1,4 @@
+{"session_id":"s1","timestamp":"2026-07-14T10:00:00Z","agent":"codex","model":"gpt-5.4-mini","project":"llm-zoomcamp","input_tokens":1200,"output_tokens":350,"tool_calls":3}
+{"session_id":"s2","timestamp":"2026-07-14T11:15:00Z","agent":"codex","model":"gpt-5.4-mini","project":"dlt-workshop","input_tokens":1800,"output_tokens":420,"tool_calls":5}
+{"session_id":"s3","timestamp":"2026-07-14T12:30:00Z","agent":"copilot","model":"gpt-4.1","project":"llm-zoomcamp","input_tokens":950,"output_tokens":210,"tool_calls":2}
+{"session_id":"s4","timestamp":"2026-07-14T14:00:00Z","agent":"codex","model":"gpt-5.4-mini","project":"dlt-workshop","input_tokens":2200,"output_tokens":510,"tool_calls":6}

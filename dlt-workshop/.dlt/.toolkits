@@ -1,0 +1,77 @@
+init:
+  version: 0.1.1
+  description: Shared rules, secrets handling, and workspace MCP for dlthub
+  tags:
+  - dlthub
+  - init
+  - rules
+  - secrets
+  - mcp
+  installed_at: '2026-07-14T16:18:08.030129+00:00'
+  agent: codex
+  files:
+    .codexignore:
+      sha3_256: 1aa4dc9286dd219dcb55399f388c5ee1f940ab5e399a42b644d488cba57a9ec0
+    .agents/skills/init-dlthub-workspace/SKILL.md:
+      sha3_256: 0641e3c3fc78e924050bf6dda703fc2072d1f52f73c500f66bdc964b0df96a3c
+  mcp_servers:
+  - dlt-workspace-mcp
+  name: init
+filesystem-pipeline:
+  version: 0.1.1
+  description: Load files (CSV, Parquet, JSONL, or custom) from local disk, S3, GCS,
+    Azure, or SFTP into a destination using dlt's filesystem source.
+  tags:
+  - dlthub
+  - filesystem
+  - s3
+  - gcs
+  - azure
+  - sftp
+  - csv
+  - parquet
+  - jsonl
+  dependencies:
+  - init
+  workflow_entry_skill: create-filesystem-pipeline
+  installed_at: '2026-07-14T16:29:09.649700+00:00'
+  agent: codex
+  files:
+    .agents/skills/add-incremental-loading/SKILL.md:
+      sha3_256: 8fd5ee5ae1bdaeca3d154871774bd8e16b0eabbc70fc1b5f1967554b7a61cadf
+    .agents/skills/create-filesystem-pipeline/SKILL.md:
+      sha3_256: 98109cbd084ab77fbfe33c1253a5b414e5466b3bd0581469c37e371ac8d33f60
+    .agents/skills/optimize-filesystem-performance/SKILL.md:
+      sha3_256: 630e89afb9739a4b37ad171ac750317fbff68fe425607852f0592eeb816dc474
+    .agents/skills/filesystem-pipeline-workflow/SKILL.md:
+      sha3_256: 8a75b2aa22b3587b109885a910ca9e110d11d0cb2681c49a2caf79acad61413d
+  name: filesystem-pipeline
+data-exploration:
+  version: 0.1.1
+  description: Quick insights from dlt pipeline data. Connect to a pipeline, profile
+    tables, plan charts, and assemble marimo dashboards.
+  tags:
+  - dlthub
+  - marimo
+  - ibis
+  - data-exploration
+  - dashboards
+  - altair
+  dependencies:
+  - init
+  workflow_entry_skill: explore-data
+  installed_at: '2026-07-14T16:29:28.340371+00:00'
+  agent: codex
+  files:
+    .agents/skills/build-notebook/SKILL.md:
+      sha3_256: a88f4c19fb10f5afcdcf389e11b938310d1457bf86fed0b28df9cab606961a91
+    .agents/skills/build-notebook/references/notebook-patterns.md:
+      sha3_256: 96d80469820be9e1beddd10961b0a588da526c7678a0d12561e24f30e91037d3
+    .agents/skills/explore-data/SKILL.md:
+      sha3_256: d703ba8cf43cd5564274df0b51bb2df791598c3de27f904ee71ce295595f6cee
+    .agents/skills/explore-data/references/analysis-plan-format.md:
+      sha3_256: 8fcb5223200f4e566432fda35be8b555b8a88274b9f1dc42c41a21c4d6ddbab5
+    .agents/skills/explore-data/references/dlt-relation-api.md:
+      sha3_256: a13cb108f3e47f13b85d54e98c5e486f2c7b12638e00b168ddffc9e33e745047
+    .agents/skills/data-exploration-workflow/SKILL.md:
+      sha3_256: d8471c6ae207c618d5f0efb6d886f7ffeec4f8edb42f2df4a9ece6f68653a160
