@@ -18,4 +18,5 @@ dependencies = [
     "croniter>=6.0.0",
     "pandas>=2.3.3",
     "altair>=6.2.2",
+    "deltalake>=1.6.2",
 ]

@@ -2,6 +2,8 @@
 
 ## ALWAYS ACTIVATE those skills
 they are essential for ANY work in this project
+- `dlthub-platform-profiles`
+- `dlthub-platform-workflow`
 - `data-exploration-workflow`
 - `filesystem-pipeline-workflow`
 
