@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "A dlthub workspace"
 requires-python = ">=3.10"
 dependencies = [
-    "dlt[hub]>=1.27.2,<2",
+    "dlt[hub,s3]>=1.27.2,<2",
     "dlthub>=0.27.0,<1",
     "dlthub-client>=0.27.7,<1",
     "duckdb>=0.9",

@@ -27,6 +27,7 @@ import sys
 
 import dlt
 from dlt.hub import run as hub_run  # aliased so it doesn't shadow this module's run()
+from dlt.hub.run import trigger
 from dlt.sources.rest_api import rest_api_source
 
 BASE_URL = "https://test-agent-traces-api-xt2e7ottma-ew.a.run.app"
@@ -94,7 +95,10 @@ def run(mode: str = "capped"):
     return pipeline, info
 
 
-@hub_run.pipeline("agent_traces_api")
+@hub_run.pipeline(
+   "agent_traces_api",
+    trigger=trigger.schedule("0 12 * * *"),
+)
 def ingest_agent_traces():
     """Deployed job: load /logs in capped (20,000-record) mode into Playground."""
     run("capped")
